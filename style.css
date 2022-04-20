@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+html body{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    max-height: 100vh;
+    width: 100%;
+}
+.logo img{
+    height: 4rem;
+    width: 10rem;
+}
+a .contact-btn{ 
+    color:black;
+    font-size: 0.9rem;
+    font-weight: 100;
+    padding: 0.3rem 1.3rem 0.3rem 1.3rem;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    
+}
+.logo{
+    margin-top: 1rem;
+}
+
+.contact-us{
+    margin: 2.5rem 1.5rem; 
+  
+}
+.welcome h1{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    
+    
+}
+.welcome h1 .name{
+    font-weight: 500;
+}
+.get-access h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.get-access p{
+    font-weight: 300;
+    font-size: 14px;
+}
+.get-access p a {
+    font-weight: 500;
+    color: black;
+}
+.get-access a .new-course{
+    background-color:#098b5b;
+    padding: 5px 24px;
+    padding: 0.5rem 1.3rem 0.5rem 1.3rem;
+    color: white;
+    border-radius: 7px;
+    border: 2px solid ;
+    
+    
+}
